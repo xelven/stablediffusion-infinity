@@ -89,8 +89,9 @@ conda activate sd-inf
 conda install pytorch torchvision torchaudio -c pytorch-nightly
 conda install scipy scikit-image
 conda install -c conda-forge diffusers transformers ftfy accelerate
-pip install opencv-python
-pip install -U gradio
+pip install opencv-python==4.6.0.66 opencv-python-headless==4.6.0.66
+pip install -U gradio==3.10.1
+pip install httpx==0.23.1
 pip install pytorch-lightning==1.7.7 einops==0.4.1 omegaconf==2.2.3
 pip install timm
 ```
